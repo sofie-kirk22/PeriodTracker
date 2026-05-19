@@ -128,5 +128,161 @@
     "CycleStartDate": "2024-04-25T00:00:00",
     "CycleEndDate": "2024-05-23T00:00:00",
     "CycleLength": 29
+  },
+  {
+    "MenstrualPhase": {
+      "StartDate": "2024-05-24T00:00:00",
+      "EndDate": "2024-05-28T00:00:00",
+      "FlowIntensity": 4
+    },
+    "FollicularPhase": {
+      "StartDate": "2024-05-29T00:00:00",
+      "EndDate": "2024-06-05T00:00:00",
+      "EnergyLevel": 4
+    },
+    "Ovulation": {
+      "OvulationDate": "2024-06-06T00:00:00",
+      "FertileWindowStart": "2024-06-06T00:00:00",
+      "FertileWindowEnd": "2024-06-07T00:00:00",
+      "FertilityLevel": 1
+    },
+    "LutealPhase": {
+      "StartDate": "2024-06-08T00:00:00",
+      "EndDate": "2024-06-21T00:00:00",
+      "MoodLevel": 4
+    },
+    "CycleStartDate": "2024-05-24T00:00:00",
+    "CycleEndDate": "2024-06-21T00:00:00",
+    "CycleLength": 29
+  },
+  {
+    "MenstrualPhase": {
+      "StartDate": "2024-06-22T00:00:00",
+      "EndDate": "2024-06-27T00:00:00",
+      "FlowIntensity": 3
+    },
+    "FollicularPhase": {
+      "StartDate": "2024-06-28T00:00:00",
+      "EndDate": "2024-07-04T00:00:00",
+      "EnergyLevel": 3
+    },
+    "Ovulation": {
+      "OvulationDate": "2024-07-05T00:00:00",
+      "FertileWindowStart": "2024-07-05T00:00:00",
+      "FertileWindowEnd": "2024-07-06T00:00:00",
+      "FertilityLevel": 1
+    },
+    "LutealPhase": {
+      "StartDate": "2024-07-07T00:00:00",
+      "EndDate": "2024-07-16T00:00:00",
+      "MoodLevel": 4
+    },
+    "CycleStartDate": "2024-06-22T00:00:00",
+    "CycleEndDate": "2024-07-16T00:00:00",
+    "CycleLength": 25
+  },
+  {
+    "MenstrualPhase": {
+      "StartDate": "2024-07-17T00:00:00",
+      "EndDate": "2024-07-21T00:00:00",
+      "FlowIntensity": 3
+    },
+    "FollicularPhase": {
+      "StartDate": "2024-07-22T00:00:00",
+      "EndDate": "2024-07-26T00:00:00",
+      "EnergyLevel": 3
+    },
+    "Ovulation": {
+      "OvulationDate": "2024-07-27T00:00:00",
+      "FertileWindowStart": "2024-07-27T00:00:00",
+      "FertileWindowEnd": "2024-07-29T00:00:00",
+      "FertilityLevel": 3
+    },
+    "LutealPhase": {
+      "StartDate": "2024-07-30T00:00:00",
+      "EndDate": "2024-08-10T00:00:00",
+      "MoodLevel": 3
+    },
+    "CycleStartDate": "2024-07-17T00:00:00",
+    "CycleEndDate": "2024-08-10T00:00:00",
+    "CycleLength": 25
+  },
+  {
+    "MenstrualPhase": {
+      "StartDate": "2024-08-11T00:00:00",
+      "EndDate": "2024-08-14T00:00:00",
+      "FlowIntensity": 1
+    },
+    "FollicularPhase": {
+      "StartDate": "2024-08-15T00:00:00",
+      "EndDate": "2024-08-19T00:00:00",
+      "EnergyLevel": 2
+    },
+    "Ovulation": {
+      "OvulationDate": "2024-08-20T00:00:00",
+      "FertileWindowStart": "2024-08-20T00:00:00",
+      "FertileWindowEnd": "2024-08-22T00:00:00",
+      "FertilityLevel": 3
+    },
+    "LutealPhase": {
+      "StartDate": "2024-08-23T00:00:00",
+      "EndDate": "2024-09-03T00:00:00",
+      "MoodLevel": 3
+    },
+    "CycleStartDate": "2024-08-11T00:00:00",
+    "CycleEndDate": "2024-09-03T00:00:00",
+    "CycleLength": 24
+  },
+  {
+    "MenstrualPhase": {
+      "StartDate": "2024-09-04T00:00:00",
+      "EndDate": "2024-09-06T00:00:00",
+      "FlowIntensity": 3
+    },
+    "FollicularPhase": {
+      "StartDate": "2024-09-07T00:00:00",
+      "EndDate": "2024-09-15T00:00:00",
+      "EnergyLevel": 2
+    },
+    "Ovulation": {
+      "OvulationDate": "2024-09-16T00:00:00",
+      "FertileWindowStart": "2024-09-16T00:00:00",
+      "FertileWindowEnd": "2024-09-18T00:00:00",
+      "FertilityLevel": 4
+    },
+    "LutealPhase": {
+      "StartDate": "2024-09-19T00:00:00",
+      "EndDate": "2024-09-29T00:00:00",
+      "MoodLevel": 3
+    },
+    "CycleStartDate": "2024-09-04T00:00:00",
+    "CycleEndDate": "2024-09-29T00:00:00",
+    "CycleLength": 26
+  },
+  {
+    "MenstrualPhase": {
+      "StartDate": "2024-09-30T00:00:00",
+      "EndDate": "2024-10-03T00:00:00",
+      "FlowIntensity": 4
+    },
+    "FollicularPhase": {
+      "StartDate": "2024-10-04T00:00:00",
+      "EndDate": "2024-10-10T00:00:00",
+      "EnergyLevel": 3
+    },
+    "Ovulation": {
+      "OvulationDate": "2024-10-12T00:00:00",
+      "FertileWindowStart": "2024-10-11T00:00:00",
+      "FertileWindowEnd": "2024-10-13T00:00:00",
+      "FertilityLevel": 3
+    },
+    "LutealPhase": {
+      "StartDate": "2024-10-14T00:00:00",
+      "EndDate": "2024-10-25T00:00:00",
+      "MoodLevel": 4
+    },
+    "CycleStartDate": "2024-09-30T00:00:00",
+    "CycleEndDate": "2024-10-25T00:00:00",
+    "CycleLength": 26
   }
 ]
