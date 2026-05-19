@@ -1,9 +1,9 @@
 public class Cycle
 {
-    public MenstrualPhase MenstrualPhase { get; set; }
-    public FollicularPhase FollicularPhase { get; set; }
-    public Ovulation Ovulation { get; set; }
-    public LutealPhase LutealPhase { get; set; }
+    public required MenstrualPhase MenstrualPhase { get; set; }
+    public required FollicularPhase FollicularPhase { get; set; }
+    public required Ovulation Ovulation { get; set; }
+    public required LutealPhase LutealPhase { get; set; }
 
     public DateTime CycleStartDate => MenstrualPhase.StartDate;
     public DateTime CycleEndDate => LutealPhase.EndDate;

@@ -12,7 +12,7 @@ public class CycleTracker
         Cycles.Add(cycle);
     }
 
-    public Cycle GetCurrentCycle()
+    public Cycle? GetCurrentCycle()
     {
         DateTime today = DateTime.Today;
         return Cycles.FirstOrDefault(c => c.CycleStartDate <= today && c.CycleEndDate >= today);
@@ -21,6 +21,11 @@ public class CycleTracker
     public string GetCurrentPhase(DateTime today)
     {
         var currentCycle = GetCurrentCycle();
+
+        if (currentCycle == null)
+        {
+            return "No active phase";
+        }
 
 
         if(today >= currentCycle.MenstrualPhase.StartDate && today <= currentCycle.MenstrualPhase.EndDate)
