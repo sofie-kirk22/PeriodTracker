@@ -48,7 +48,13 @@ tracker.AddCycle(new Cycle
 
 storage.SaveCycles(tracker.Cycles);
 
-app.MapGet("/", () => "Small and simple period tracker API");
+app.MapGet("/", () => "Small and simple period tracker API \n \n" +
+    "Endpoints: \n" +
+    "/current-phase - Get current menstrual phase \n" +
+    "/average-cycle-length - Get average cycle length \n" +
+    "/days-to-ovulation - Get days until ovulation \n" +
+    "/cycles - List all cycles with details \n" +
+    "/list-all-cycles - List all cycles in raw format");
 
 app.MapGet("/current-phase", () =>
 {
